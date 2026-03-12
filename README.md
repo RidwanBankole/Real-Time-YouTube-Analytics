@@ -65,7 +65,7 @@ ingesting data even when downstream processing is under load, and no events are 
 peak periods. I designed the topic structure and partitioning strategy to support parallel
 processing across multiple channels simultaneously.
 
-![Kafka Pipeline](IMAGE_KAFKA_PLACEHOLDER)
+![Kafka Pipeline](https://raw.githubusercontent.com/RidwanBankole/Real-Time-YouTube-Analytics/refs/heads/main/img/Kafka%20flow.drawio.png)
 
 **Stream Processing — Spark Streaming**
 
