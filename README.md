@@ -31,6 +31,21 @@ decisions based on what is happening, not what happened.
 
 ![Architecture Diagram](IMAGE_ARCHITECTURE_PLACEHOLDER)
 
+YouTube API v3
+      │
+      ▼
+Apache Kafka (Event Streaming)
+      │
+      ▼
+Spark Streaming (Real-time Processing)
+      │
+      ▼
+BigQuery (Data Warehouse)
+      │
+      ▼
+Dashboard / BI Tool
+
+
 The platform tracks:
 
 | Metric Category | Metrics |
