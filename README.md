@@ -29,21 +29,7 @@ from the YouTube Data API, streams them through a live data pipeline, and surfac
 an always-current analytics dashboard — giving content teams the intelligence to make
 decisions based on what is happening, not what happened.
 
-![Architecture Diagram](IMAGE_ARCHITECTURE_PLACEHOLDER)
-
-YouTube API v3
-      │
-      ▼
-Apache Kafka (Event Streaming)
-      │
-      ▼
-Spark Streaming (Real-time Processing)
-      │
-      ▼
-BigQuery (Data Warehouse)
-      │
-      ▼
-Dashboard / BI Tool
+![Architecture Diagram](https://raw.githubusercontent.com/RidwanBankole/Real-Time-YouTube-Analytics/refs/heads/main/img/IMAGE_ARCHITECTURE_PLACEHOLDER.drawio.png)
 
 
 The platform tracks:
@@ -96,7 +82,6 @@ analytical query performance — partitioned by date and clustered by channel an
 category to ensure dashboard queries run fast even as the dataset grows to hundreds of
 millions of rows.
 
-![BigQuery Schema](IMAGE_BIGQUERY_PLACEHOLDER)
 
 **Orchestration — Apache Airflow**
 
@@ -114,8 +99,6 @@ built into the pipeline architecture itself.
 
 
 ## The Outcome
-
-![Dashboard](IMAGE_DASHBOARD_PLACEHOLDER)
 
 The platform delivers a live analytics dashboard that tracks channel performance, content
 strategy trends, and audience behaviour at scale — updating continuously as new data flows
