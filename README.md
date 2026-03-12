@@ -2,7 +2,6 @@
 
 [![Portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ridwanbankole.github.io/)
 [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bankoleridwan/)
-[![GitHub](https://img.shields.io/badge/GitHub-View_Code-181717?style=for-the-badge&logo=github)](https://github.com/RidwanBankole/Real-Time-YouTube-Analytics)
 
 ![Banner](https://raw.githubusercontent.com/RidwanBankole/Real-Time-YouTube-Analytics/refs/heads/main/img/youtube%20analytics%202.jpg)
 
